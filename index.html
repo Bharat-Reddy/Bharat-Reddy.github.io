@@ -49,10 +49,10 @@
 <div class="profile-page">
   <div class="wrapper">
     <div class="page-header page-header-small" filter-color="green">
-      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/goldman-sachs.jpg')"></div>
       <div class="container">
         <div class="content-center">
-          <div class="cc-profile-image"><img src="images/bharat.jpg" alt="Image"/></div>
+          <div class="cc-profile-image"><img src="images/bharat-new.jpg" alt="Image"/></div>
           <div class="h2 title">Bharat Reddy</div>
           <p class="category text-white">Computer Science | Software Developer</p>
         </div>
@@ -72,7 +72,7 @@
         <div class="col-lg-6 col-md-12">
           <div class="card-body">
             <div class="h4 mt-0 title">About Me</div>
-            <p>In 2020, I graduated with a B.Tech (Hons.) degree in the Department of Computer Science and Engineering from Indian Institute of Technology (IIT), Kharagpur. Since June 2020, I have been working at D.E.Shaw India Pvt. Ltd., where I have been working at mutiple quantitative and software development projects. The domains of my projects revolve around software development, probability and statistics, machine learning and operating systems. I am particularly interested in exploring systems and networks, specially discovering the way how ML can change the way systems work.  </p></p>
+            <p>In 2020, I graduated with a B.Tech degree in the Department of Computer Science and Engineering from National Institute of Technology (NIT), Calicut. Since July 2020, I have been working at Goldman Sachs, where my team builds and maintains a distributed transaction processing system. I'm experienced in building middleware‐based, distributed, event‐driven internet facing secure applications. My projects mostly revolve around computing systems, specifically distributed systems.  I'm interested in exploring ways to build domain-specific "efficient" distributed systems to tackle data-intensive problems. </p></p>
           </div>
         </div>
         <div class="col-lg-6 col-md-12">
@@ -88,7 +88,7 @@
             </div>
             <div class="row mt-3">
               <div class="col-sm-4"><strong class="text-uppercase">Languages Known:</strong></div>
-              <div class="col-sm-8">English, Hindi</div>
+              <div class="col-sm-8">English, Telugu, Hindi</div>
             </div>
           </div>
         </div>
@@ -98,21 +98,27 @@
 </div>
 <div class="section" id="experience">
   <div class="container cc-experience">
-    <div class="h4 text-center mb-4 title">Research/Work Experience</div>
+    <div class="h4 text-center mb-4 title">Work Experience</div>
 
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>June 2020 - Present</p>
-            <div class="h5">D. E. Shaw India Private Limited</div>
+            <p>July 2020 - Present</p>
+            <div class="h5">Goldman Sachs</div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Senior Member Technical</div>
-            <p>Working on a variety of quantitative software development projects, ranging from database management, operating systems, developing live monitors and statistical libraries to developing financial models using machine learning and statistics. <br><b><i> &lt;Confidential Details Omitted&gt; </i> </b></p>
-              <b>Domain:</b> Software Engineering, Database Management Systems, Algorithms, Machine Learning, Probability and Statistics, Operating Systems
+            <div class="h5">Associate (SDE 2)</div>
+            <p>
+              <ul>
+                <li>Experienced in building middleware-based, distributed, event-driven applications and data pipelines using Apache Kafka and Apache Spark</li>
+                <li>Implemented internet-facing highly secured microservice-based applications to assist regulatory compliance and avoid federal fines</li>
+                <li>Automated deployment procedures by integrating Goldman Sachs' internal SDLC pipelines with Kubernetes as well as multiple AWS services such as Lambda, EC2, S3, API Gateway, Kinesis, SQS, etc</li>
+                <li>Apache Cassandra administrator with working knowledge of MongoDB, SingleStore, MySql, DB2 \& Hazelcast</li>
+              </ul>
+              <b>Domain:</b> Distributed Systems, Software Engineering, Database Management Systems, Algorithms, Operating Systems
           </div>
         </div>
       </div>
@@ -122,59 +128,45 @@
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
-            <p>Jan 2019 - June 2020</p>
-            <div class="h5">Undergraduate Research (B.Tech Project) <br> <font size=3> Prof. Sandip Chakraborty</font></div>
+            <p>May 2019 - July 2020</p>
+            <div class="h5">Goldman Sachs </div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">PARIMA: Viewport Adaptive 360-Degree Video Streaming</div>
-            <p> As a part of the project, we developed an end-to-end viewport-adaptive 360-degree video streaming system using state-of-the-art viewport prediction model. This model can predict the future viewport of the user (that is where the user would look next) and send that part of the 360-degree frame at higher quality and rest of it at lower quality. This would improve Quality of Experience (QoE) and reduce bandwidth consumption.
-
-            <br> Here are some procedures involved:
+            <div class="h5">Summer Analyst</div>
             <ul>
-              <li> We exploited video contents in terms of object trajectories derived using a robust spherical object tracking algorithm. Our claim was that the viewport of the user depends upon the trajectory of the prime objects in the video along with the past viewport. </li>
-              <li> We designed a unique augmentation of Passive-Aggressive Regression and ARIMA time-series models for viewport prediction. We implemented the model to be online in nature, adaptive to user preferences dynamically and effective for streaming. </li>
-              <li> We compared the model performance with state-of-the-art baselines and observed an improvement of QoE by over 30%. We proved that our video streaming system is superior than the baselines through a variety of experimentation results. </li>
+              <li> Designed and implemented an end-to-end \textit{Health Monitoring service} and integrated it with a distributed transaction processing system, improving SLA metrics and reducing manual efforts by 80% </li>
+              <li> Engineered the service to monitor all the microservices of the system to detect and escalate issues such as: 
+                <ul>
+                  <li>Staleness of Data flowing through various pipelines</li>
+                  <li>Unresponsive components and issues with retrieving data from upstream DataLake and Kafka Servers</li>
+                </ul>
+              </li>
+              <li> Incorporated "heartbeats" - periodic software signals - to achieve real-time performance in health reporting </li>
             </ul>
           </p>
-          <b>Domain:</b> Systems, Video Streaming, Image Processing, Machine Learning, Time Series Analysis
           </div>
         </div>
       </div>
     </div>
 
-    <div class="card">
-      <div class="row">
-        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body cc-experience-header">
-            <p>May 2019 - July 2019</p>
-            <div class="h5">D. E. Shaw India Private Limited</div>
-          </div>
-        </div>
-        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
-          <div class="card-body">
-            <div class="h5">Software Development Intern</div>
-            <p>Worked on the development of a financial model for positioning nine DM currencies using most relevant flow market participants. This was followed by development of an automated live monitor for the designed model, useful to analyse the positioning of various currencies. <br> <b> <i> &lt;Confidential Details Omitted&gt; </i> </b> </p>
-              <b>Domain:</b> Software Engineering, Algorithms, Probability and Statistics, Machine Learning
-          </div>
-        </div>
-      </div>
-    </div>
     <div class="card">
       <div class="row">
         <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body cc-experience-header">
             <p>May 2018 - July 2018</p>
-            <div class="h5">Industrial Technology Research Institute (ITRI), Taiwan</div>
+            <div class="h5">IIT Bombay <br> <font size="2.5"> Fundamental Research Group</font></div>
           </div>
         </div>
         <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
           <div class="card-body">
-            <div class="h5">Research Intern</div>
-            <p> As a part of this internship, we developed a software using optimised algorithms to automatically extract small clips involving car accidents from youtube videos using algorithmic methods instead of Machine Learning. The mined data was supposed to be used as dataset of car accident video clips for training the autonomous driving model at ITRI. <br> 
-                <ul> <li>First, we prepared a full-fledged video crawling tool that can scrape videos from youtube based upon the search query and preferred search filters input by the user. We used the developed tool to crawl car accident videos from youtube.</li><li> Since the dataset specifically requires dashcam videos for training, we then devised algorithms to filter dashcam videos, followed by detecting various objects in the videos. </li><li> We developed a robust algorithm to detect collisions between cars using the objects detected in 2-dimensional video frames. </li></ul>  </p>
-              <b>Domain:</b> Software Engineering, Algorithms, Web Scraping, Data Mining
+            <div class="h5">Software Development Intern</div>
+            <ul>
+              <li>Developed a Notification System for Collaborative Communities Portal - an internal knowledge sharing platform</li>
+              <li>Incorporated Django-Channels, WebSockets, and other Polling techniques to make the Notification System real-time</li>
+              <li>Adhered to Test Driven Development by implementing unit \& integration tests to verify the correctness of the code</li>
+            </ul>
           </div>
         </div>
       </div>
